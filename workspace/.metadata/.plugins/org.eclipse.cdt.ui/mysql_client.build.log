@@ -1,0 +1,13 @@
+09:31:11 **** Incremental Build of configuration Debug for project mysql_client ****
+make all 
+Building target: mysql_client
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "mysql_client"  ./src/main.o   -lmysqlclient
+/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o: In function `_start':
+makefile:30: recipe for target 'mysql_client' failed
+/build/glibc-P1SmLh/glibc-2.19/csu/../ports/sysdeps/arm/start.S:119: undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [mysql_client] Error 1
+
+09:31:12 Build Finished (took 699ms)
+

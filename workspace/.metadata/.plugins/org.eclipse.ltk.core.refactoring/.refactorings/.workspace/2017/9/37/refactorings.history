@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;client&apos; to &apos;mysql_client&apos;" description="Rename resource &apos;client&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/client" name="mysql_client" stamp="1505287138434" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;mysql_client&apos; to &apos;client&apos;" description="Rename resource &apos;mysql_client&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/mysql_client" name="client" stamp="1505287901937" updateReferences="true"/>
+</session>
