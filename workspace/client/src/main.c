@@ -1,5 +1,4 @@
-#include <my_global.h>
-#include <mysql.h>
+#include "main.h"
 
 void finish_with_error(MYSQL *con)
 {
@@ -20,7 +19,7 @@ int main(int argc, char **argv)
   }
 
   if (mysql_real_connect(con, "localhost", "root", "root",
-          "testdb", 0, NULL, 0) == NULL)
+          "test", 0, NULL, 0) == NULL)
   {
       finish_with_error(con);
   }

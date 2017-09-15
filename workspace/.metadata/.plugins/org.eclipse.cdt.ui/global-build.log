@@ -1,4 +1,4 @@
-09:41:02 **** Incremental Build of configuration Debug for project client ****
+10:50:51 **** Incremental Build of configuration Debug for project client ****
 make all 
 Building file: ../src/main.c
 Invoking: GCC C Compiler
@@ -10,6 +10,9 @@ Invoking: GCC C Linker
 gcc -L/usr/lib -o "client"  ./src/main.o   -lmysqlclient
 Finished building target: client
  
-09:41:11 **** Incremental Build of configuration Debug for project client ****
+10:51:08 **** Incremental Build of configuration Debug for project client ****
+make all 
+make: Nothing to be done for 'all'.
+10:52:51 **** Incremental Build of configuration Debug for project client ****
 make all 
 make: Nothing to be done for 'all'.
