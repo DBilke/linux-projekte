@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS clients;
+
+create user IF NOT EXISTS 'client1'@'localhost' identified by 'client1';
+grant usage on *.* to 'client1'@'localhost' identified by 'client1'; 
+
+grant all privileges on clients.* to 'client1'@'localhost';
+
+flush privileges; 
+
+USE clients;
+DROP TABLE IF EXISTS client1;
+
+

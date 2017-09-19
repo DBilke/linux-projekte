@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS srv_clnt;
+
+create user IF NOT EXISTS 'client'@'localhost' identified by 'client';
+grant usage on *.* to 'client'@'localhost' identified by 'client'; 
+
+grant all privileges on clients.* to 'client1'@'localhost';
+
+flush privileges; 
+
+USE srv_clnt;
+DROP TABLE IF EXISTS client;
+
+

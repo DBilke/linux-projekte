@@ -1,4 +1,4 @@
-10:50:51 **** Incremental Build of configuration Debug for project client ****
+14:15:56 **** Incremental Build of configuration Debug for project client ****
 make all 
 Building file: ../src/main.c
 Invoking: GCC C Compiler
@@ -10,9 +10,258 @@ Invoking: GCC C Linker
 gcc -L/usr/lib -o "client"  ./src/main.o   -lmysqlclient
 Finished building target: client
  
-10:51:08 **** Incremental Build of configuration Debug for project client ****
+14:27:00 **** Clean-only build of configuration Debug for project client ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  client
+ 
+14:27:01 **** Clean-only build of configuration Debug for project server ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  server
+ 
+14:27:05 **** Build of configuration Debug for project client ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: client
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "client"  ./src/main.o   -lmysqlclient
+Finished building target: client
+ 
+14:27:11 **** Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function ‘main’:
+src/subdir.mk:18: recipe for target 'src/main.o' failed
+../src/main.c:27:3: error: expected ‘,’ or ‘;’ before ‘char’
+   char sql[100];
+   ^
+../src/main.c:24:8: warning: unused variable ‘client_ip’ [-Wunused-variable]
+   char client_ip[] = "127.0.0.1";
+        ^
+make: *** [src/main.o] Error 1
+14:29:59 **** Incremental Build of configuration Debug for project client ****
 make all 
 make: Nothing to be done for 'all'.
-10:52:51 **** Incremental Build of configuration Debug for project client ****
+14:30:09 **** Incremental Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function ‘main’:
+../src/main.c:101:1: error: expected declaration or statement at end of input
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+14:32:08 **** Incremental Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: server
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "server"  ./src/main.o   -lmysqlclient
+Finished building target: server
+ 
+14:33:27 **** Incremental Build of configuration Debug for project server ****
 make all 
 make: Nothing to be done for 'all'.
+14:35:47 **** Incremental Build of configuration Debug for project server ****
+make all 
+make: Nothing to be done for 'all'.
+14:38:42 **** Clean-only build of configuration Debug for project client ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  client
+ 
+14:38:43 **** Clean-only build of configuration Debug for project server ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  server
+ 
+14:38:48 **** Build of configuration Debug for project client ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: client
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "client"  ./src/main.o   -lmysqlclient
+Finished building target: client
+ 
+14:38:54 **** Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: server
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "server"  ./src/main.o   -lmysqlclient
+Finished building target: server
+ 
+14:39:10 **** Incremental Build of configuration Debug for project server ****
+make all 
+make: Nothing to be done for 'all'.
+14:52:32 **** Incremental Build of configuration Debug for project client ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: client
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "client"  ./src/main.o   -lmysqlclient
+Finished building target: client
+ 
+14:52:42 **** Incremental Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: server
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "server"  ./src/main.o   -lmysqlclient
+Finished building target: server
+ 
+14:53:05 **** Incremental Build of configuration Debug for project server ****
+make all 
+make: Nothing to be done for 'all'.
+14:53:34 **** Clean-only build of configuration Debug for project client ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  client
+ 
+14:53:35 **** Clean-only build of configuration Debug for project server ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  server
+ 
+14:53:40 **** Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: server
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "server"  ./src/main.o   -lmysqlclient
+Finished building target: server
+ 
+15:01:36 **** Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: server
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "server"  ./src/main.o   -lmysqlclient
+Finished building target: server
+ 
+15:02:17 **** Build of configuration Debug for project client ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: client
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "client"  ./src/main.o   -lmysqlclient
+Finished building target: client
+ 
+15:04:46 **** Clean-only build of configuration Debug for project client ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  client
+ 
+15:04:47 **** Clean-only build of configuration Debug for project server ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  server
+ 
+15:04:53 **** Build of configuration Debug for project client ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: client
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "client"  ./src/main.o   -lmysqlclient
+Finished building target: client
+ 
+15:04:58 **** Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: server
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "server"  ./src/main.o   -lmysqlclient
+Finished building target: server
+ 
+15:05:54 **** Incremental Build of configuration Debug for project client ****
+make all 
+make: Nothing to be done for 'all'.
+15:06:04 **** Incremental Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: server
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "server"  ./src/main.o   -lmysqlclient
+Finished building target: server
+ 
+15:12:13 **** Incremental Build of configuration Debug for project client ****
+make all 
+make: Nothing to be done for 'all'.
+15:12:22 **** Incremental Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: server
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "server"  ./src/main.o   -lmysqlclient
+Finished building target: server
+ 
+15:12:34 **** Incremental Build of configuration Debug for project server ****
+make all 
+make: Nothing to be done for 'all'.
+15:14:25 **** Incremental Build of configuration Debug for project server ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:14 **** Incremental Build of configuration Debug for project client ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:24 **** Incremental Build of configuration Debug for project server ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: server
+Invoking: GCC C Linker
+gcc -L/usr/lib -o "server"  ./src/main.o   -lmysqlclient
+Finished building target: server
+ 
