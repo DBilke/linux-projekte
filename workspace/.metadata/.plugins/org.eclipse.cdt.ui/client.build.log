@@ -1,6 +1,6 @@
-15:20:14 **** Incremental Build of configuration Debug for project client ****
+09:07:06 **** Build of configuration Debug for project client ****
 make all 
-make: Nothing to be done for 'all'.
+Cannot run program "make": Unknown reason
 
-15:20:15 Build Finished (took 541ms)
+09:07:06 Build Finished (took 146ms)
 

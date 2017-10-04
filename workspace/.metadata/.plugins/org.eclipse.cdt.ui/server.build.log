@@ -1,15 +1,6 @@
-15:20:24 **** Incremental Build of configuration Debug for project server ****
+11:31:05 **** Incremental Build of configuration Debug for project server ****
 make all 
-Building file: ../src/main.c
-Invoking: GCC C Compiler
-gcc -std=c99 -I/usr/include/mysql -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
-Finished building: ../src/main.c
- 
-Building target: server
-Invoking: GCC C Linker
-gcc -L/usr/lib -o "server"  ./src/main.o   -lmysqlclient
-Finished building target: server
- 
+make: Nothing to be done for 'all'.
 
-15:20:26 Build Finished (took 1s.897ms)
+11:31:06 Build Finished (took 656ms)
 
